@@ -213,7 +213,7 @@ namespace The_Celly_Simulator
             switch (reason)
             {
                 case DeathReasons.OutOfEnergy:
-                    Program.RemoveCellFromList((Cell)this);
+                    Program.RemoveCellFromList(this);
                     break;
             }
         }
@@ -221,7 +221,7 @@ namespace The_Celly_Simulator
         {
             if (debug)
             {
-                Program.ShowStatsOfCell((Cell)this);
+                Program.ShowStatsOfCell(this);
             }
         }
     }
