@@ -8,7 +8,7 @@ namespace The_Celly_Simulator
 {
     public class World
     {
-        public World()
+        public World(Vector2 scale)
         {
 
         }

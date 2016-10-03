@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace The_Celly_Simulator
 {
-    class Vector2
+    public class Vector2
     {
         private double _x, _y;
         public double x
