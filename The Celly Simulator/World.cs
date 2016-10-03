@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace The_Celly_Simulator
 {
-    public static class World
+    public class World
     {
+        public World()
+        {
 
+        }
     }
 }
