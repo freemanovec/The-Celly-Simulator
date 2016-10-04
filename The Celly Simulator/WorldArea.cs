@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace The_Celly_Simulator
 {
-    public class World
+    public class WorldArea
     {
-        private WorldArea[,] _matrix;
-        public World(Vector2 scale)
+        public WorldArea(double food)
         {
-            _matrix = new WorldArea[(int)scale.x, (int)scale.y];
+
         }
     }
 }
